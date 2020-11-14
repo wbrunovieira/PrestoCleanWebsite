@@ -25,6 +25,29 @@ img {
 	letter-spacing: .1em;
 }
 
+.btn-porthome{
+    border: 3px solid #FAEC1A;
+	padding: 10px 30px;
+	color: #FAEC1A;
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: .1em;
+
+}
+
+.btn-porthome:hover{
+    border: 5px solid #FAEC1A;
+    font-size: 1.1em;
+}
+
+.btn:hover{
+    
+    font-size: 1.1em;
+    border: 5px solid #24205d;
+}
+
 
 /* Header */
 
@@ -58,11 +81,17 @@ img {
 }
 
 .header_menu ul li a:hover {
-	color: #000;
+    color: #FAEC1A;
+    text-decoration: underline;
+    font-size: 1.05em;
+    text-shadow: 2px 2px 15px;
 }
 
+
 .header_menu ul li a.menu_ativo {
-	color: #FAEC1A;
+    color: #FAEC1A;
+    text-decoration: underline;
+    font-size: 1.05em;
 }
 
 .introducao {
@@ -110,3 +139,258 @@ img {
 	font-size: 14px;
 	letter-spacing: .1em;
 }
+
+.produtos {
+	padding: 60px 0;
+}
+
+.produtos_lista li{
+    
+    background:#FAEC1A;
+	text-align: center;
+}
+
+.produtos_lista li img {
+	margin: 0 auto;
+}
+
+.produtos_lista li h3{
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	margin-top: 20px;
+}
+
+.produtos_lista li h3:after{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #24205D;
+	
+	margin: 2px auto;
+}
+
+.produtos_lista li p {
+	padding: 10px 20px 20px 20px;
+}
+
+.produtos_icone {
+    
+	background: #24205D;
+    
+	padding: 20px;
+}
+
+
+
+.call {
+	padding-top: 40px;
+	text-align: center;
+	clear: both;
+}
+
+.call p{
+	margin-bottom: 20px;
+}
+
+
+.subtitulo {
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	color: #24205D;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.subtitulo:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #24205D;
+	margin: 8px auto;
+}
+
+.subtitulo-interno {
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	color: #000;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.subtitulo-interno:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #24205D;
+	margin: 8px 0;
+}
+
+.portfolio {
+	width: 100%;
+	background: #24205D;
+	padding: 40px 0;
+}
+
+.portfolio .subtitulo {
+	color: #FAEC1A;
+}
+
+.portfolio .subtitulo:after {
+	background: #FAEC1A;
+}
+
+.portfolio_lista li:last-child {
+	margin-top: 20px;
+}
+
+.portfolio .call p {
+	color: #fff;
+}
+
+/*Qualidade*/
+
+.qualidade {
+	padding: 60px 0;
+}
+
+.qualidade:after {
+	content: "";
+	width: 634px;
+	height: 253px;
+	display: block;
+	background: url("../img/linhasQualidade.png") no-repeat center;
+    position: absolute;
+   
+	top: 129px;
+	right: 162px;
+	z-index: -1;
+}
+
+.qualidade img{
+	margin: 0 auto;
+}
+
+.qualidade_lista {
+	padding-top: 60px;
+	overflow: auto; /* clear-fix */
+}
+
+.qualidade_lista li {
+	text-align: center;
+	padding: 0 40px;
+}
+
+.qualidade_lista li h3{
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	margin-top: 20px;
+}
+
+.qualidade_lista li h3:after{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #24205D;
+	margin: 6px auto;
+}
+
+/*Footer*/
+
+.footer {
+	width: 100%;
+	background: #24205D;
+	color: #fff;
+	padding: 20px 0;
+}
+
+.footer h3 {
+	font-size: 18px;
+	line-height: 25px;
+	color: #FAEC1A;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-weight: bold;
+}
+
+/*Introducao Interna*/
+
+.introducao-interna {
+	width: 100%;
+	margin-top: 92px;
+	height: 160px;
+	text-align: center;
+	color: #fff;
+	padding-top: 30px;
+}
+
+.introducao-interna h1 {
+	font-size: 36px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.introducao-interna h1:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #fff;
+	margin: 6px auto 10px auto;
+}
+
+
+.footer h3:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #FAEC1A;
+	margin: 6px 0 12px 0;
+}
+
+.footer_historia {
+	padding-right: 40px;
+}
+
+.footer_contato ul li {
+	font-size: 14px;
+	line-height: 20px;
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+.footer_redes ul li {
+	display: inline-block;
+	margin-right: px;
+}
+
+.footer_redes ul li a {
+	border: 3px solid #FAEC1A;
+	display: block;
+	padding: 5px;
+}
+
+.footer_redes ul li a:hover {
+	border-color: #fff;
+}
+
+.copy {
+	width: 100%;
+	background: #FAEC1A;
+	padding: 20px 0;
+}
+
