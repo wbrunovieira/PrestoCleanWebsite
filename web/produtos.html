@@ -15,7 +15,10 @@
         <link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/grid.css">
-		<link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/produtos.css">
+
+        
 
 </head>
 
@@ -29,7 +32,7 @@
             <nav class="grid-12 header_menu">
                 <ul>
                     <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="produtos.html" class="menu_ativo">Produtos</a></li>
                     <li><a href="portfolio.html">Portfólio</a></li>
                     <li><a href="contato.html">Contato</a></li>
                 </ul>
@@ -37,41 +40,116 @@
         </div>
     </header>
     
-    <header class="header">
+   
         <section class="introducao-interna interna-produtos">
             <div class="container">
               <h1 data-anime="400" class="fadeInDown">Produtos</h1>
               <p data-anime="800" class="fadeInDown">Conheça todos os nossos produtos</p>
             </div>
           </section>
+
+          <section class="fadeInDown container produto_item" data-anime="1600">
+            <div class="grid-11">
+              <img src="./img/produtosLimpezaPic.jpg" alt="Limpeza">
+              <h2>Limpeza</h2>
+            </div>
+            <div class="grid-5 produto_icone">
+              <img src="./img/produto-icone.svg" alt="icone-limpeza">
+            </div>
+
+            <section class="fadeInDown container produto_item" data-anime="1600">
+                <div class="grid-11">
+                  <img src="./img/produtoHigie.jpg" alt="Higienizacao">
+                  <h2>Higienizacao</h2>
+                </div>
+                <div class="grid-5 produto_icone">
+                  <img src="./img/no-virus.svg" alt="icone-Higienizacao">
+                </div>
+
+                <section class="fadeInDown container produto_item" data-anime="1600">
+                    <div class="grid-11">
+                      <img src="./img/produtoImperm.jpg" alt="Impermeabilização">
+                      <h2>Impermeabilização</h2>
+                    </div>
+                    <div class="grid-5 produto_icone">
+                      <img src="./img/waterproof.svg" alt="icone-Impermeabilização">
+                    </div>
+            
+          </section>
         
           
-    <footer>
-        <div class="footer">
-            <div class="container">
+   
 
-                <div class="grid-8 footer_historia">
-                    <h3>Nossa História</h3>
-                    <p>O verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana cotidiana. interesse por todos os detalhes da vida cotidiana cotidiana.</p>
-                </div>
+         <section class="orcamento">
+                    <div class="container">
+                      <h2 class="subtitulo">Orçamento</h2>
+                      <form id="form_orcamento" class="form grid-8 formphp" action="./enviar.php">
+                        <label for="nome">Nome</label>
+                                <input type="text" id="nome" name="nome" required>
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" name="email" required>
+                                <label for="telefone">Telefone</label>
+                                <input type="text" id="telefone" name="telefone">
+                
+                                <label class="nao-aparece">Se voce nao e um robo deixe em branco</label>
+                                <input type="text" class="nao-aparece" name="leaveblank">	
+                                <label class="nao-aparece">Se voce nao e um robo nao mude esse campo</label>
+                                <input type="text" class="nao-aparece" name="dontchange" value="http://">
+                
+                                
+                                <label for="mensagem">Mensagem</label>
+                                <textarea id="mensagem" name="mensagem" required></textarea>
+                        <button id="enviar" name="enviar" type="submit" class="btn-porthome">Enviar</button>
+                      </form>
+                      <div class="orcamento_dados grid-8">
+                        <h3>Dados</h3>
+                        <span>Telefone: 221 131 248</span>
+                        <span>Telemovel: 919 150 699</span>
+                        <span>geral@prestoclean.pt</span>
+                        <h3>Informe os servicos</h3>
+                        <p>Escolha os servicos</p>
+                        <ul>
+                          <li>- Limpeza, Higienizacao e Impermeabilização</li>
+                          <li>- Sofás, Colchões e Tapetes</li>
+                          <li>- Carros</li>
+                          <li>- Cadeiras</li>
+                          <li>- E outros</li>
+                        </ul>
+                      </div>
+                    </div>
+        </section>
+        
 
-                <div class="grid-4 footer_contato">
-                    <h3>Contato</h3>
-                    <ul>
-                        <li>- Telefone: 221 131 248</li>
-                        <li>- Telemovel: 919 150 699</li>
-                        <li>- geral@prestoclean.pt</li>
-                        <li>- Vila Nova de Gaia - Porto</li>
-                    </ul>
-                </div>
+                  <footer>
+                    <div class="footer">
+                        <div class="container">
+            
+                            <div class="grid-8 footer_historia">
+                                <h3>Nossa História</h3>
+                                <p>O verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana cotidiana. interesse por todos os detalhes da vida cotidiana cotidiana.</p>
+                            </div>
+            
+                            <div class="grid-4 footer_contato">
+                                <h3>Contato</h3>
+                                <ul>
+                                    <li>221 131 248</li>
+                                    <li>919 150 699</li>
+                                    <li>geral@prestoclean.pt</li>
+                                    <li>Vila Nova de Gaia - Porto</li>
+                                </ul>
+                            </div>
+            
+                            <div class="grid-4 footer_redes">
+                                <h3>Contato</h3>
+                                <ul>
+                                    <li><a href="http://facebook.com" target="_blank"><img src="img/facebook-footer.png"></a></li>
+                                    <li><a href="https://www.instagram.com/prestoclean.pt/" target="_blank"><img src="img/instagram-footer.png"></a></li>
+                                    
+                                </ul>
+                            </div>
+                </footer>
 
-                <div class="grid-4 footer_redes">
-                    <h3>Contato</h3>
-                    <ul>
-                        <li><a href="http://facebook.com" target="_blank"><img src="img/facebook-footer.png"></a></li>
-                        <li><a href="https://www.instagram.com/prestoclean.pt/" target="_blank"><img src="img/instagram-footer.png"></a></li>
-                        
-                    </ul>
-                </div>
+                  
+       
 </body>
 </html>

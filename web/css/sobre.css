@@ -3,21 +3,30 @@
 	background-size: cover;
 }
 
+.subtitulo-interno p {
+    color: #24205D;
+    
+
+}
+
 .missao_sobre {
 	padding-top: 60px;
 }
 
 .missao_sobre p {
-	font-size: 18px;
+	font-size: 14px;
 	line-height: 25px;
 	margin-bottom: 1em;
-	padding-right: 60px
+    padding-right: 60px;
+    color: #24205D;
+    
 }
 
 .missao_sobre ul li {
 	font-family: Georgia, "Times New Roman", serif;
-	font-size: 18px;
-	line-height: 30px;
+	font-size: 14px;
+    line-height: 30px;
+    color: #24205D;
 }
 
 .foto-equipe {

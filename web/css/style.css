@@ -107,7 +107,7 @@ img {
 }
 
 .introducao h1 {
-	font-size: 48px;
+	font-size: 36px;
 	color: #24205D;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -222,7 +222,7 @@ img {
 	line-height: 30px;
 	font-weight: bold;
 	letter-spacing: .1em;
-	color: #000;
+	color: #24205D;
 	text-transform: uppercase;
 	margin-bottom: 20px;
 }
@@ -289,6 +289,7 @@ img {
 .qualidade_lista li {
 	text-align: center;
 	padding: 0 40px;
+	color: #24205D;
 }
 
 .qualidade_lista li h3{
@@ -316,6 +317,8 @@ img {
 	background: #24205D;
 	color: #fff;
 	padding: 20px 0;
+	
+
 }
 
 .footer h3 {
@@ -334,7 +337,7 @@ img {
 	margin-top: 92px;
 	height: 160px;
 	text-align: center;
-	color: #fff;
+	color: #24205D;
 	padding-top: 30px;
 }
 
@@ -342,6 +345,11 @@ img {
 	font-size: 36px;
 	font-weight: bold;
 	text-transform: uppercase;
+	padding-top: 30px;
+}
+
+.introducao-interna p{
+	font-weight: bold;
 }
 
 .introducao-interna h1:after {
@@ -349,7 +357,7 @@ img {
 	display: block;
 	width: 60px;
 	height: 3px;
-	background: #fff;
+	background: #24205D;
 	margin: 6px auto 10px auto;
 }
 
