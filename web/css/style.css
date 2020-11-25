@@ -391,6 +391,10 @@ img {
 	display: block;
 	padding: 5px;
 }
+.footer{
+	padding-top: 60px;
+	width: 100%;
+}
 
 .footer_redes ul li a:hover {
 	border-color: #fff;
