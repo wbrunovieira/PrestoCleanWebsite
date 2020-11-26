@@ -73,69 +73,6 @@
     margin-left: 2px;
   }
   
-  /* Orçamento */
-  
-  .orcamento {
-    background: #24205D;
-    width: 100%;
-    padding: 40px 10px;
-  }
-  
-  .orcamento h2 {
-    color: #FAEC1A;
-    padding-top: 180px;
-    margin-bottom: -140px;
-    
-  }
-  
-  .orcamento h2:after {
-    background: #FAEC1A;
-  }
-
-  .orcamento h2:before {
-    background: #FAEC1A;
-  }
-  
-  .form {
-    padding-right: 60px;
-    
-  }
-  
-  .form label {
-    display: block;
-    color: #FFF;
-    font-family: Georgia, "Time New Roman", serif;
-    font-size: 18px;
-    line-height: 25px;
-    margin-bottom: 4px;
-  }
-  
-  .form input {
-    display: block;
-    width: 100%;
-    border: 4px solid #FAEC1A;
-    background: none;
-    color: #fff;
-    padding: 7px 10px;
-    margin-bottom: 10px;
-    outline: none;
-    font-size: 14px;
-    font-family: Georgia, "Time New Roman", serif;
-  }
-  
-  .form textarea {
-    display: block;
-    width: 100%;
-    height: 120px;
-    border: 4px solid #FAEC1A;
-    background: none;
-    color: #fff;
-    padding: 7px 10px;
-    margin-bottom: 20px;
-    outline: none;
-    font-size: 14px;
-    font-family: Georgia, "Time New Roman", serif;
-  }
   
   .form button {
     background: none;
@@ -192,3 +129,45 @@
 	position: absolute;
 	height: 0px;
 }
+.servicos h3{
+  font-family: Georgia, "Time New Roman", serif;
+  font-size: 18px;
+  padding: 10px 15px;
+  color: #24205D;
+  font-weight: bold;
+  line-height: 30px;
+  margin-left: 20px;
+
+}
+
+.container span{
+  font-family: Georgia, "Time New Roman", serif;
+  font-size: 14px;
+  padding: 10px 15px;
+  color: #24205D;
+  line-height: 25px;
+  margin-left: 20px;
+  text-align: left;
+
+
+  
+  
+
+}
+
+
+.imagem-iper{
+  display: inline-block;
+  padding:100px;
+}
+
+.imagem-serv { 
+  display: inline-block;
+  padding-top: -690px;
+  padding-left: 80px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+  height: 290px;
+}
+
+
