@@ -1,11 +1,11 @@
 
 body {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Cabin, Helvetica, sans-serif;
 }
 
 p {
-	font-family: Georgia, "Times New Roman", serif;
-	font-size: 14px;
+	font-family: 'Cabin', "Times New Roman", sans-serif;
+	font-size: 15px;
 	line-height: 20px;
 }
 

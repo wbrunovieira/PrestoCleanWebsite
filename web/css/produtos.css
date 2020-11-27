@@ -74,61 +74,10 @@
   }
   
   
-  .form button {
-    background: none;
-    padding: 7px 40px;
-  }
   
-  .orcamento_dados {
-    color: #FFF;
-  }
   
-  .orcamento_dados h3 {
-    font-size: 18px;
-    text-transform: uppercase;
-    color: #FAEC1A;
-    line-height: 25px;
-    font-weight: bold;
-  }
   
-  .orcamento_dados span {
-    display: block;
-    font-size: 18px;
-    font-family: Georgia, "Time New Roman", serif;
-    line-height: 30px;
-  }
   
-  .orcamento_dados span:nth-of-type(3) {
-    margin-bottom: 30px;
-  }
-  
-  .dados_email {
-    margin-bottom: 40px;
-  }
-  
-  .orcamento_dados ul {
-    padding-right: 60px;
-  }
-  
-  .orcamento_dados ul li {
-    font-family: Georgia, "Time New Roman", serif;
-    font-size: 14px;
-    padding: 10px 15px;
-  }
-  
-  .orcamento_dados ul li:nth-child(odd) {
-    background: #10103e;
-  }
-  
-  .orcamento_dados p {
-    margin: 8px 0;
-  }
-
-  .nao-aparece{
-	visibility: hidden;
-	position: absolute;
-	height: 0px;
-}
 .servicos h3{
   font-family: Georgia, "Time New Roman", serif;
   font-size: 18px;
@@ -141,8 +90,8 @@
 }
 
 .container span{
-  font-family: Georgia, "Time New Roman", serif;
-  font-size: 14px;
+  font-family: Cabin, "Time New Roman", sans-serif;
+  font-size: 15px;
   padding: 10px 15px;
   color: #24205D;
   line-height: 25px;
