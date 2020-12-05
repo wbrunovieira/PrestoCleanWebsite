@@ -8,7 +8,7 @@ require "./PHPMailer/src/PHPMailer.php";
 require "./PHPMailer/src/SMTP.php";
   
 // Mudar Aqui o e-mail
-$email_envio = "geral@carnet.pt"; // E-mail do site (ex: contato@seusite.com)
+$email_envio = "geral@prestoclean.pt"; // E-mail do site (ex: contato@seusite.com)
 $email_pass = "aN77e2020@"; // Senha do e-mail
 
 $site_name = "Prestoclean"; // Nome do Site

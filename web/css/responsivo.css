@@ -29,6 +29,7 @@
     .produto_item h2 {
       top: -150px;
       margin-bottom: -56px;
+      
     }
   
     .produto_icone {
@@ -45,6 +46,19 @@
     .produto_info ul li {
       width: 181px;
       height: 49px;
+    }
+
+    .servicos {
+      margin-bottom: 40px;
+      flex-wrap: nowrap;
+
+    }
+
+    .servicos-texto {
+      padding-top: 0px;
+    }
+    .servicos-img {
+      margin-bottom: -80px;
     }
   
   }
