@@ -381,6 +381,15 @@ img {
 	font-family: Georgia, "Times New Roman", serif;
 }
 
+.footer_contato a {
+	color: #fff;
+}
+
+.footer_contato a:hover {
+	color: #FAEC1A;
+	font-size: 16px;
+}
+
 .footer_redes ul li {
 	display: inline-block;
 	margin-right: px;

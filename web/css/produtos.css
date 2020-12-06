@@ -68,6 +68,8 @@
     flex-wrap: wrap;
     margin: 40px 0 ;
     max-width: 960px;
+    justify-content: center;
+    align-items: top;
     
   
   }

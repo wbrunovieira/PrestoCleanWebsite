@@ -66,20 +66,29 @@
 	font-weight: bold;
 }
 
-.contato_dados span {
+.contato_dados span a {
 	display: block;
 	font-size: 18px;
-	line-height: 30px;
-    font-family: Cabin, "Times New Roman", sans-serif;
-    color:#24205D;
+	line-height: 50px;
+    font-family: Cabin, sans-serif;
+	color:#24205D;
+	
+	
 }
 
-.contato_dados span:nth-of-type(even) {
-	margin-bottom: 30px;
+.contato_dados span a:hover {
+	color: #000;
+	font-size:22px;
 }
+
+
+
+
+
+
 
 .contato_dados ul {
-    margin-top: 10px;
+    margin-top: 30px;
     
 }
 
@@ -92,7 +101,8 @@
 .contato_dados ul li a {
 	border: 3px solid #24205D;
 	display: block;
-    padding: 10px;	
+	padding: 10px;	
+	
     
 }
 
@@ -108,4 +118,8 @@
 	visibility: hidden;
 	position: absolute;
 	height: 0px;
+}
+
+.contato_dados span:nth :last-child{
+	margin-bottom: 110px;
 }
