@@ -99,8 +99,10 @@
   background-color: #24205D;
   color: #fff;
   padding: 10px 10px;
-  flex:1;
+  flex:1 1 300px;
   box-shadow: 2px 2px 15px #252525;
+  
+  
   
   
 }
@@ -112,6 +114,7 @@
   height: 2px;
   background: #fff;
   margin: 10px auto 10px auto;
+  
 }
 
 
@@ -121,10 +124,10 @@
   align-items: center;
   justify-content: center;
   max-width: 420px;
-  flex-grow: 1;
-  flex-basis: 1;
+  
   padding-bottom: 40px;
   align-items: center;
+  flex:1 1 300px;
 }
 
 .container span{
@@ -135,8 +138,13 @@
   line-height: 25px;
   margin-left: 20px;
   text-align: center;
+ 
+}
 
+.servicos-texto > span {
 
+  text-indent: 0 !important;
+  text-align: justify;
 }
 
 
