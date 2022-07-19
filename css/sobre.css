@@ -1,0 +1,34 @@
+.interna_sobre {
+	background: url("/img/bg-sobre.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.subtitulo-interno p {
+    color: #24205D;
+    
+
+}
+
+.missao_sobre {
+	padding-top: 60px;
+}
+
+.missao_sobre p {
+	font-size: 15px;
+	line-height: 25px;
+	margin-bottom: 1em;
+    padding-right: 60px;
+    color: #24205D;
+    
+}
+
+.missao_sobre ul li {
+	font-family: Cabin, "Times New Roman", sans-serif;
+	font-size: 15px;
+    line-height: 30px;
+    color: #24205D;
+}
+
+.foto-equipe {
+	padding-top: 20px;
+}

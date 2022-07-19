@@ -1,0 +1,154 @@
+.interna-produtos {
+    background: url(../img/bg-sobre@2x.jpg) no-repeat center;
+    background-size: cover;
+  }
+  
+  .produto_item {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  
+  .produto_item h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+    position: relative;
+    top: -180px;
+    text-align: center;
+    color: #FFF;
+    margin-bottom: -56px;
+  }
+  
+  .produto_item h2:after,
+  .produto_item h2:before {
+    content: " ";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fff;
+    margin: 6px auto 8px auto;
+  }
+  
+  .produto_icone {
+    background: #FAEC1A;
+    padding: 5px 0;
+  }
+  
+  .produto_icone img {
+    margin: 0 auto;
+  }
+  
+  .produto_info {
+    background: #24205D;
+  }
+  
+  .produto_info p {
+    color: #FFF;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 30px 40px;
+    height: 180px;
+  }
+  
+  
+  
+  .produto_info ul li:nth-child(1),
+  .produto_info ul li:nth-child(2) {
+    margin-bottom: 2px;
+  }
+  
+  .produto_info ul li:nth-child(even) {
+    margin-left: 2px;
+  }
+  
+  
+  .servicos {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 0 ;
+    max-width: 960px;
+    justify-content: center;
+    align-items: top;
+    
+  
+  }
+  
+  
+  
+.servicos h3{
+  font-family: Cabin, sans-serif;
+  font-size: 20px;
+  padding: 10px 15px;
+  color: #fff;
+  font-weight: bold;
+  line-height: 30px;
+  margin-left: 20px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: .1em;
+  
+
+}
+
+
+.servicos-texto {
+  align-items: center;
+  justify-content: center;
+  max-width: 460px;
+  background-color: #24205D;
+  color: #fff;
+  padding: 10px 10px;
+  flex:1 1 300px;
+  box-shadow: 5px 5px 15px 0px #252525;
+  
+  
+  
+  
+}
+
+.servicos-texto h3:after {
+  content: " ";
+  display: block;
+  width: 100px;
+  height: 2px;
+  background: #fff;
+  margin: 10px auto 10px auto;
+  
+}
+
+
+
+.servicos-img {
+  
+  align-items: center;
+  justify-content: center;
+  max-width: 420px;
+  
+  padding-bottom: 40px;
+  align-items: center;
+  flex:1 1 300px;
+}
+
+.container span{
+  font-family: Cabin, sans-serif;
+  font-size: 14px;
+  padding: 20px 20px;
+  color: #fff;
+  line-height: 25px;
+  margin-left: 20px;
+  text-align: center;
+ 
+}
+
+.servicos-texto > span {
+
+  text-indent: 0 !important;
+  text-align: justify;
+}
+
+
+
+
+
+
